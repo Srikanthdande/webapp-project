@@ -93,7 +93,18 @@
       </plugin>
     </plugins>
   </build>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-25-8.us-east-2.compute.internal-releases</name>
+        <url>http://ec2-3-144-159-116.us-east-2.compute.amazonaws.com:8081/artifactory/mavenkey</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-25-8.us-east-2.compute.internal-snapshots</name>
+        <url>http://ec2-3-144-159-116.us-east-2.compute.amazonaws.com:8081/artifactory/mavenkey</url>
+    </snapshotRepository>
+</distributionManagement>
 
 
 </project>
